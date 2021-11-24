@@ -19,7 +19,7 @@
                 :link="route('edit', $paste->hash)"
             />
             <x-header-item
-                label="Row"
+                label="Raw"
                 class="border-gray-300 dark:border-gray-700 text-gray-700 dark:text-white bg-white dark:bg-dark-muted hover:bg-gray-50 dark:hover:bg-gray-800 focus:ring-flag-green"
                 icon="heroicon-o-external-link"
                 :link="route('raw', $paste->hash)"
